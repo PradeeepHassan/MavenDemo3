@@ -3,10 +3,16 @@ package com.qa.pradeep.testcase;
 import org.testng.annotations.Test;
 
 
+
+
 import com.qa.pradeep.baseclass.BaseClassACT;
 import com.qa.pradeep.pages.HomePageACT;
 import com.qa.pradeep.pages.LoginPageACT;
 
+//
+//{
+//	pradeep kumar
+//}
 public class ValidLoginactTest extends BaseClassACT {
 	
 
@@ -22,11 +28,12 @@ public class ValidLoginactTest extends BaseClassACT {
 	}
 	
 	@Test (priority=1,enabled=true , invocationCount=1)
-	public void invalidlogin1(){
+	public void invalidlogin1() throws InterruptedException{
 		LoginPageACT l= new LoginPageACT(driver);
 		l.usertexbox("pardee");
 		l.passtextbox("andrea");
 		l.loginbutton();
+		Thread.sleep(2000);
 		l.errmssage();
 		
 	}
