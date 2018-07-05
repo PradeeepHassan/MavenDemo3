@@ -1,6 +1,22 @@
 package com.qa.pradeep.testcase;
 
+import java.util.Set;
+
+import javax.security.auth.callback.ConfirmationCallback;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
 import org.testng.annotations.Test;
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -8,9 +24,10 @@ import org.testng.annotations.Test;
 import com.qa.pradeep.baseclass.BaseClassACT;
 import com.qa.pradeep.pages.HomePageACT;
 import com.qa.pradeep.pages.LoginPageACT;
+import com.qa.pradeep.pages.NewTaskACT;
 
-//
-//{
+
+// {
 //	pradeep kumar
 //}
 public class ValidLoginactTest extends BaseClassACT {
@@ -52,6 +69,40 @@ public class ValidLoginactTest extends BaseClassACT {
 		h.closeHP();
 		h.logoutAT();		
 	}
+	
+	@Test 
+	public void task() throws InterruptedException{
+		LoginPageACT l= new LoginPageACT(driver);
+		l.usertexbox("admin");
+		l.passtextbox("manager");
+		l.loginbutton();
+		
+		NewTaskACT n=new NewTaskACT(driver);
+		n.imagetask();
+		n.newtaskcreate();
+		n.idcustomer();
+		n.nameCustomer();
+		n.nameProject();
+		n.nameTask("New bug");
+		n.timeBill();
+		Thread.sleep(2000);
+		n.typeBill();
+		n.taskCreate();
+		Thread.sleep(2000);
+
+		n.checkboxtask();
+		n.taskdeleted();
+		Thread.sleep(2000);
+
+		n.allertpopup();
+		n.imageCustomer();
+		n.checkboxcustomer();
+		n.delecustomer();
+		n.popupcustomer();
+
+	}
+	
+	
 	
 
 }

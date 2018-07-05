@@ -1,4 +1,5 @@
 com\qa\pradeep\pages\LoginPageACT.class
+com\qa\pradeep\pages\NewTaskACT.class
 com\qa\pradeep\pages\Demo1.class
 com\qa\pradeep\pages\HomePageACT.class
 com\qa\pradeep\baseclass\BaseClassACT.class
