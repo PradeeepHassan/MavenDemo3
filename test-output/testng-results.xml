@@ -1,21 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37659" started-at="2018-07-04T13:54:51Z" finished-at="2018-07-04T13:55:29Z">
+  <suite name="Default suite" duration-ms="132162" started-at="2018-07-09T17:49:33Z" finished-at="2018-07-09T17:51:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37659" started-at="2018-07-04T13:54:51Z" finished-at="2018-07-04T13:55:29Z">
+    <test name="Default test" duration-ms="132162" started-at="2018-07-09T17:49:33Z" finished-at="2018-07-09T17:51:45Z">
       <class name="com.qa.pradeep.testcase.ValidLoginactTest">
-        <test-method status="PASS" signature="precondtionAT()[pri:0, instance:com.qa.pradeep.testcase.ValidLoginactTest@132ec19]" name="precondtionAT" is-config="true" duration-ms="11574" started-at="2018-07-04T13:54:51Z" finished-at="2018-07-04T13:55:03Z">
+        <test-method status="PASS" signature="precondtionAT()[pri:0, instance:com.qa.pradeep.testcase.ValidLoginactTest@3a8624]" name="precondtionAT" is-config="true" duration-ms="35959" started-at="2018-07-09T17:49:33Z" finished-at="2018-07-09T17:50:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondtionAT -->
-        <test-method status="PASS" signature="task()[pri:0, instance:com.qa.pradeep.testcase.ValidLoginactTest@132ec19]" name="task" duration-ms="24834" started-at="2018-07-04T13:55:03Z" finished-at="2018-07-04T13:55:27Z">
+        <test-method status="PASS" signature="task()[pri:0, instance:com.qa.pradeep.testcase.ValidLoginactTest@3a8624]" name="task" duration-ms="44243" started-at="2018-07-09T17:50:09Z" finished-at="2018-07-09T17:50:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- task -->
-        <test-method status="PASS" signature="postcondtionAT()[pri:0, instance:com.qa.pradeep.testcase.ValidLoginactTest@132ec19]" name="postcondtionAT" is-config="true" duration-ms="1169" started-at="2018-07-04T13:55:27Z" finished-at="2018-07-04T13:55:29Z">
+        <test-method status="PASS" signature="postcondtionAT()[pri:0, instance:com.qa.pradeep.testcase.ValidLoginactTest@3a8624]" name="postcondtionAT" is-config="true" duration-ms="1212" started-at="2018-07-09T17:50:53Z" finished-at="2018-07-09T17:50:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondtionAT -->
+        <test-method status="PASS" signature="precondtionAT()[pri:0, instance:com.qa.pradeep.testcase.ValidLoginactTest@3a8624]" name="precondtionAT" is-config="true" duration-ms="12056" started-at="2018-07-09T17:50:54Z" finished-at="2018-07-09T17:51:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondtionAT -->
+        <test-method status="PASS" signature="invalidlogin1()[pri:1, instance:com.qa.pradeep.testcase.ValidLoginactTest@3a8624]" name="invalidlogin1" duration-ms="2932" started-at="2018-07-09T17:51:06Z" finished-at="2018-07-09T17:51:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidlogin1 -->
+        <test-method status="PASS" signature="postcondtionAT()[pri:0, instance:com.qa.pradeep.testcase.ValidLoginactTest@3a8624]" name="postcondtionAT" is-config="true" duration-ms="1080" started-at="2018-07-09T17:51:09Z" finished-at="2018-07-09T17:51:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondtionAT -->
+        <test-method status="PASS" signature="precondtionAT()[pri:0, instance:com.qa.pradeep.testcase.ValidLoginactTest@3a8624]" name="precondtionAT" is-config="true" duration-ms="9235" started-at="2018-07-09T17:51:10Z" finished-at="2018-07-09T17:51:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondtionAT -->
+        <test-method status="PASS" signature="validTestlogin()[pri:2, instance:com.qa.pradeep.testcase.ValidLoginactTest@3a8624]" name="validTestlogin" duration-ms="5601" started-at="2018-07-09T17:51:20Z" finished-at="2018-07-09T17:51:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validTestlogin -->
+        <test-method status="PASS" signature="postcondtionAT()[pri:0, instance:com.qa.pradeep.testcase.ValidLoginactTest@3a8624]" name="postcondtionAT" is-config="true" duration-ms="985" started-at="2018-07-09T17:51:25Z" finished-at="2018-07-09T17:51:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondtionAT -->
+        <test-method status="PASS" signature="precondtionAT()[pri:0, instance:com.qa.pradeep.testcase.ValidLoginactTest@3a8624]" name="precondtionAT" is-config="true" duration-ms="8502" started-at="2018-07-09T17:51:26Z" finished-at="2018-07-09T17:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondtionAT -->
+        <test-method status="PASS" signature="versionAT()[pri:3, instance:com.qa.pradeep.testcase.ValidLoginactTest@3a8624]" name="versionAT" duration-ms="8783" started-at="2018-07-09T17:51:35Z" finished-at="2018-07-09T17:51:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- versionAT -->
+        <test-method status="PASS" signature="postcondtionAT()[pri:0, instance:com.qa.pradeep.testcase.ValidLoginactTest@3a8624]" name="postcondtionAT" is-config="true" duration-ms="1393" started-at="2018-07-09T17:51:44Z" finished-at="2018-07-09T17:51:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondtionAT -->
